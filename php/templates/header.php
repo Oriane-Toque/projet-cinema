@@ -8,7 +8,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="ensalle.php">
                     En salle
                 </a>
             </li>
