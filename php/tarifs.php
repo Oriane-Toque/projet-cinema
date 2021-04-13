@@ -124,6 +124,70 @@
 
           ?>
         </p>
+
+        <h2>Consommation</h2>
+
+        <?php
+
+          $extras = [
+            // => index 0
+            [
+              'Popcorn', // => sous-index 0
+              'L', // => sous-index 1
+              2.9 // => sous-index 2
+            ],
+            // => index 1
+            [
+              'Popcorn', // => sous-index 0
+              'XL', // => sous-index 1
+              4 // => sous-index 2
+            ],
+            // => index 2
+            [
+              'Chips', // => sous-index 0
+              '50g', // => sous-index 1
+              2.5 // => sous-index 2
+            ],
+            // => index 3
+            [
+              'M&M\'s', // => sous-index 0
+              '100g', // => sous-index 1
+              4 // => sous-index 2
+            ],
+            // => index 4
+            [
+              'Soda', // => sous-index 0
+              '33cl', // => sous-index 1
+              3.2 // => sous-index 2
+            ],
+            // => index 5
+            [
+              'Evian', // => sous-index 0
+              '33cl', // => sous-index 1
+              3 // => sous-index 2
+            ]
+          ];
+
+          /* echo $extras[0][0].$extras[0][1].$extras[0][2];
+          echo $extras[1][0].$extras[1][1].$extras[1][2]; */
+
+          /* for ($i = 0; $i < 6; $i++) {
+            for ($si = 0; $si < 3; $si++) {
+              $sous_extras = $extras[$i];
+              echo " $sous_extras[$si] ";
+            }
+            echo "<br>";
+          } */
+
+          foreach ($extras as $menu) {
+            foreach ($menu as $sous_menu) {
+              echo " $sous_menu ";
+            }
+            echo "<br>";
+          }
+        
+        ?>
+
       </section>
     </main>
 

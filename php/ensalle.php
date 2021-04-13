@@ -43,7 +43,7 @@
             {
               echo "<li>$rooms[$i]</li>";
             } 
-            */
+            
 
 
             /* Avec la boucle foreach je n'ai pas besoin de savoir combien de valeurs 
