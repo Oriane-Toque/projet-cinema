@@ -43,8 +43,6 @@
             {
               echo "<li>$rooms[$i]</li>";
             } 
-            
-
 
             /* Avec la boucle foreach je n'ai pas besoin de savoir combien de valeurs 
             sont contenues dans mon tableaux, j'ai seulement besoin 
@@ -55,7 +53,6 @@
             }
 
             ?>
-
         </ul>
       </section>
     </main>
