@@ -180,9 +180,11 @@
           } */
 
           foreach ($extras as $menu) {
+            echo "<li>";
             foreach ($menu as $sous_menu) {
-              echo " $sous_menu ";
+              echo $sous_menu;
             }
+            echo "</li>";
             echo "<br>";
           }
         
